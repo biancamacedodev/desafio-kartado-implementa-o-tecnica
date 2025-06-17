@@ -28,7 +28,6 @@ campo_novo = {
 
 formulario_atualizado = adicionar_campo(formulario_dict, campo_novo)
 
-# Agora salva o formulário atualizado com o novo campo
 with open("formulario_atualizado.json", "w", encoding="utf-8") as f:
     json.dump(formulario_atualizado, f, indent=2, ensure_ascii=False)
 
